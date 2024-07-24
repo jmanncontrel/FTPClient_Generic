@@ -60,8 +60,8 @@
   
 #else
 
-  #include <WiFiClient.h>
-  #define theFTPClient    WiFiClient
+  //#include <WiFiClient.h>
+  #define theFTPClient    EthernetClient
   
 #endif
 
